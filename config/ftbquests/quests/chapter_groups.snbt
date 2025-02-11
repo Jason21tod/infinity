@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "51D93D86E1E163E6", title: "Nível 0 - 1" }
+		{ id: "5A546EDD01C7D700", title: "Nível 1 - 2" }
+		{ id: "7740DF8875696741", title: "Nível 2 - 3" }
+	]
+}

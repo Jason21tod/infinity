@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:lightning_rod",
+      "count": 4.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 1.0
+    },
+    "result": "zoe:nerve_stimulator"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.attack_damage",
+    "attribute1amplifier": 1.0
+  },
+  "update": true
+}

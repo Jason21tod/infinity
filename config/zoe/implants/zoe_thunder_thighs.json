@@ -1,0 +1,24 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:copper_ingot",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 4.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:copper_wire",
+      "count": 4.0
+    },
+    "result": "zoe:thunder_thighs"
+  },
+  "attributes": {
+    "attribute1": "zoe:stability",
+    "attribute1amplifier": 0.1,
+    "attribute2": "zoe:volt",
+    "attribute2amplifier": 0.5
+  },
+  "update": true
+}

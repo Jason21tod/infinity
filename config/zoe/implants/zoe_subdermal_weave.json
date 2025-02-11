@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:iron_subplating",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:plastic_underskin",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:blaze_powder",
+      "count": 16.0
+    },
+    "result": "zoe:subdermal_weave"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.armor",
+    "attribute1amplifier": 2.0,
+    "attribute2": "zoe:defense",
+    "attribute2amplifier": 0.5,
+    "attribute3": "minecraft:generic.armor_toughness",
+    "attribute3amplifier": 0.5
+  },
+  "update": true
+}

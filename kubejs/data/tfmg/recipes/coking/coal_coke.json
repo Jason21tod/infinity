@@ -1,0 +1,18 @@
+{
+    "type": "tfmg:coking",
+    "ingredients": [
+      {
+        "item": "minecraft:coal"
+      }
+    ],
+    "processingTime": 1000,
+    "results": [
+      {
+        "item": "tfmg:coal_coke"
+      },
+      {
+        "amount": 1,
+        "fluid": "chemlib:carbon_dioxide"
+      }
+    ]
+  }

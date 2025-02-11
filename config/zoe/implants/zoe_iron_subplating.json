@@ -1,0 +1,28 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:iron_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:plastic_underskin",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:coal",
+      "count": 16.0
+    },
+    "result": "zoe:iron_subplating"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.armor",
+    "attribute1amplifier": 2.0,
+    "attribute2": "zoe:defense",
+    "attribute2amplifier": 0.75,
+    "attribute3": "minecraft:generic.movement_speed",
+    "attribute3amplifier": -0.01,
+    "attribute4": "forge:swim_speed",
+    "attribute4amplifier": -0.01
+  },
+  "update": true
+}

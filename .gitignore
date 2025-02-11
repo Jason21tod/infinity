@@ -1,0 +1,16 @@
+/mods,
+/screenshots
+/ldlib
+/journeymap
+/downloads
+/crash-reports
+/local
+/logs
+/modernfix
+/saves
+/shaderpacks
+infinity.ico
+*.txt
+*.dat
+*.dat_old
+.curseclient

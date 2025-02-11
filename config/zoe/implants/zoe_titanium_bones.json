@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:silicon",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:bone",
+      "count": 32.0
+    },
+    "result": "zoe:titanium_bones"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.movement_speed",
+    "attribute1amplifier": -0.01,
+    "attribute2": "zoe:defense",
+    "attribute2amplifier": 2.0,
+    "attribute3": "forge:swim_speed",
+    "attribute3amplifier": -0.01
+  },
+  "update": true
+}

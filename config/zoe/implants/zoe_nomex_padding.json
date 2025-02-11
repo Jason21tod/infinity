@@ -1,0 +1,24 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 4.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:magma_cream",
+      "count": 2.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 16.0
+    },
+    "result": "zoe:nomex_padding"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.armor",
+    "attribute1amplifier": 1.0,
+    "attribute2": "zoe:defense",
+    "attribute2amplifier": 0.25
+  },
+  "update": true
+}

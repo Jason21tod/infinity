@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:copper_cog",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "result": "zoe:rotor_joints"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.attack_speed",
+    "attribute1amplifier": 0.04,
+    "attribute2": "forge:entity_reach",
+    "attribute2amplifier": -0.05,
+    "attribute3": "minecraft:generic.attack_damage",
+    "attribute3amplifier": 0.1
+  },
+  "update": true
+}

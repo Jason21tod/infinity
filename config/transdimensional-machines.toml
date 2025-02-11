@@ -1,0 +1,160 @@
+
+[Machines]
+
+	[Machines.Quarry]
+		#Energy needed (in FE)
+		#Range: 1 ~ 9223372036854775807
+		energyConsumption = 32500
+		#Energy max capacity (in FE)
+		#Range: 1 ~ 9223372036854775807
+		energyCapacity = 200000
+		#Time to mine (in ticks)
+		#Range: > 1
+		timeToMine = 40
+		#Chance to find ore (default value is 0.07 and mean 7% chance to find ore)
+		#Range: 0.0 ~ 1.0
+		oreFindChance = 0.07
+		#Blacklisted ores (Only work for ores). Example: ["iron_ore", "coal_ore"])
+		blacklistedOres = []
+
+	[Machines.ToolInfuser]
+		#Energy base capacity (in FE)
+		#Range: 1 ~ 9223372036854775807
+		energyCapacity = 1000000
+		#Minimal time to infuse (in ticks)
+		#Range: > 1
+		minProgress = 2
+		#Maximal time to infuse (in ticks)
+		#Range: > 1
+		maxProgress = 60
+
+	[Machines.ItemInfuser]
+		#Energy max capacity (in FE)
+		#Range: 1 ~ 9223372036854775807
+		energyCapacity = 100000
+		#Time to infuse item (in ticks)
+		#Range: > 1
+		maxProgress = 200
+
+	[Machines.Foundry]
+
+		[Machines.Foundry.Simple]
+			#Energy max capacity (in FE) 
+			#Range: 1 ~ 9223372036854775807
+			energyCapacity = 10000
+			#Energy needed (in FE)
+			#Range: 1 ~ 9223372036854775807
+			energyCost = 80
+			#Time needed to smelt an item
+			#Range: > 1
+			smeltTime = 80
+			#Amount of items smelted at once
+			#Range: > 1
+			cookMultiplier = 4
+			#Chance to reduce the input consumption to one
+			#Range: 0.0 ~ 1.0
+			inputReductionChance = 0.0
+
+		[Machines.Foundry.Advanced]
+			#Energy max capacity (in FE) 
+			#Range: 1 ~ 9223372036854775807
+			energyCapacity = 40000
+			#Energy needed (in FE)
+			#Range: 1 ~ 9223372036854775807
+			energyCost = 320
+			#Time needed to smelt an item
+			#Range: > 1
+			smeltTime = 40
+			#Amount of items smelted at once
+			#Range: > 1
+			cookMultiplier = 8
+			#Chance to reduce the input consumption to one
+			#Range: 0.0 ~ 1.0
+			inputReductionChance = 0.0
+
+		[Machines.Foundry.Cosmic]
+			#Energy max capacity (in FE) 
+			#Range: 1 ~ 9223372036854775807
+			energyCapacity = 180000
+			#Energy needed (in FE)
+			#Range: 1 ~ 9223372036854775807
+			energyCost = 1280
+			#Time needed to smelt an item
+			#Range: > 1
+			smeltTime = 20
+			#Amount of items smelted at once
+			#Range: > 1
+			cookMultiplier = 16
+			#Chance to reduce the input consumption to one
+			#Range: 0.0 ~ 1.0
+			inputReductionChance = 0.01
+
+		[Machines.Foundry.Ethereal]
+			#Energy max capacity (in FE) 
+			#Range: 1 ~ 9223372036854775807
+			energyCapacity = 360000
+			#Energy needed (in FE)
+			#Range: 1 ~ 9223372036854775807
+			energyCost = 10240
+			#Time needed to smelt an item
+			#Range: > 1
+			smeltTime = 10
+			#Amount of items smelted at once
+			#Range: > 1
+			cookMultiplier = 32
+			#Chance to reduce the input consumption to one
+			#Range: 0.0 ~ 1.0
+			inputReductionChance = 0.05
+
+		[Machines.Foundry.SoulManipulator]
+
+			[Machines.Foundry.SoulManipulator.Simple]
+				#Energy max capacity (in FE) 
+				#Range: 1 ~ 9223372036854775807
+				energyCapacity = 50000
+				#Energy needed (in FE)
+				#Range: 1 ~ 9223372036854775807
+				energyCost = 12500
+				#Time needed to process
+				#Range: > 1
+				processTime = 250
+
+			[Machines.Foundry.SoulManipulator.Advanced]
+				#Energy max capacity (in FE) 
+				#Range: 1 ~ 9223372036854775807
+				energyCapacity = 150000
+				#Energy needed (in FE)
+				#Range: 1 ~ 9223372036854775807
+				energyCost = 50000
+				#Time needed to process
+				#Range: > 1
+				processTime = 200
+
+			[Machines.Foundry.SoulManipulator.Cosmic]
+				#Energy max capacity (in FE) 
+				#Range: 1 ~ 9223372036854775807
+				energyCapacity = 500000
+				#Energy needed (in FE)
+				#Range: 1 ~ 9223372036854775807
+				energyCost = 150000
+				#Time needed to process
+				#Range: > 1
+				processTime = 150
+
+			[Machines.Foundry.SoulManipulator.Ethereal]
+				#Energy max capacity (in FE) 
+				#Range: 1 ~ 9223372036854775807
+				energyCapacity = 5000000
+				#Energy needed (in FE)
+				#Range: 1 ~ 9223372036854775807
+				energyCost = 500000
+				#Time needed to process
+				#Range: > 1
+				processTime = 100
+
+[Items]
+
+	[Items.SoulInABottle]
+		#Blacklisted entities. Example: ["minecraft:zombie", "minecraft:ender_dragon"])
+		blacklistedEntities = []
+

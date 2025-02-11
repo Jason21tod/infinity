@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:phantom_membrane",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 8.0
+    },
+    "result": "zoe:antigrav_chamber"
+  },
+  "attributes": {
+    "attribute1": "forge:entity_gravity",
+    "attribute1amplifier": -0.005
+  },
+  "update": true
+}

@@ -1,0 +1,28 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:sand",
+      "count": 64.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 8.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:iron_ingot",
+      "count": 16.0
+    },
+    "result": "zoe:grounded_padding"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.movement_speed",
+    "attribute1amplifier": -0.01,
+    "attribute2": "zoe:stability",
+    "attribute2amplifier": 1.0,
+    "attribute3": "zoe:defense",
+    "attribute3amplifier": 0.5,
+    "attribute4": "minecraft:generic.armor",
+    "attribute4amplifier": 0.5
+  },
+  "update": true
+}

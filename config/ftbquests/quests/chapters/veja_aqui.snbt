@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "veja_aqui"
+	group: ""
+	icon: "mekanism_extras:infinite_control_circuit"
+	id: "4A273107A24A7BDA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["As tochas neste modpack foram nerfadas. Você precisará descobrir outro meios de iluminação ao longo da sua jornada."]
+			icon: "realistictorches:lit_torch"
+			id: "31615B3A9E87F1BC"
+			subtitle: "Sim, isso mesmo"
+			tasks: [{
+				id: "05088C2D603DADD1"
+				title: "Tochas Apagam"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["A temperatura é um fator crucial na jornada da humanidade, lide com isso da melhor forma que puder."]
+			icon: "cold_sweat:thermometer"
+			id: "799DC78CDDB54084"
+			subtitle: "Abrigue-se"
+			tasks: [{
+				id: "3CE7946087908CD2"
+				title: "Temperatura"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["A água será crucial. Você precisará lidar com seu estoque de água para não ficar em maus lençóis."]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "3ADF60018118BAF7"
+			subtitle: "Ache fonte de água"
+			tasks: [{
+				id: "73748D637EABA2C6"
+				title: "sede"
+				type: "checkmark"
+			}]
+			title: "Sede"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Parte da batalha da humanidade sempre será contra suas próprias fraquezas, sejam elas grandes ou microscópicas. Encontre ervas e guarde-as, elas serão seus aliados contra mazelas do ambiente."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+				id: "meds_and_herbs:plant_guide_book"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+			}
+			id: "39A8E5F508C29891"
+			subtitle: "Sim, temos doenças aqui também"
+			tasks: [{
+				id: "27CED7D28F107ADE"
+				title: "Germes, Germes por toda parte"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: "skyfall:sky_rock"
+			id: "37A6F5ACE48257EC"
+			tasks: [{
+				id: "0C3F8C734305C515"
+				title: "Cuidado, meteóros!"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			icon: "sereneseasons:calendar"
+			id: "6331766C03AB8F5A"
+			tasks: [{
+				id: "6A9623C0EDF37FF5"
+				title: "Prepare-se para o inverno"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						Insulation: [ ]
+					}
+				}
+				id: "adpother:diamond_respirator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F6EFE2B5D998FCD"
+			tasks: [{
+				id: "38E42F4CB2C99445"
+				title: "Começando sua pegada de carbono"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	title: "Veja Aqui!"
+}

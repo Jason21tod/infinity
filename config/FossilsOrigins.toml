@@ -1,0 +1,5 @@
+
+[Creatures]
+	#Will mobs spawn natrually in your world? False by default
+	NatrualSpawn = false
+

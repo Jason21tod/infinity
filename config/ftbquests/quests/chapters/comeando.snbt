@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "comeando"
+	group: "51D93D86E1E163E6"
+	icon: "minecraft:grass_block"
+	id: "75E347A4AB312456"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F9F6EEFA7B916E9"
+			size: 1.5d
+			tasks: [{
+				id: "3DC08E9675810AC1"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Proteja-se"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D18121BE69E046B"]
+			id: "783AD38A729AE2C2"
+			tasks: [{
+				count: 3L
+				id: "336832264714C525"
+				item: {
+					Count: 3
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			title: "Procure por água"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F9F6EEFA7B916E9"]
+			id: "6D18121BE69E046B"
+			tasks: [{
+				id: "77151FFCAD712557"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Fumaça e Comida"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F9F6EEFA7B916E9"]
+			id: "4116AE6354BC4E93"
+			tasks: [{
+				count: 3L
+				id: "50E228358711CAB7"
+				item: { Count: 3, id: "minecraft:beef" }
+				type: "item"
+			}]
+			title: "Encontre Comida"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D18121BE69E046B"]
+			id: "0215542CE10D3C53"
+			tasks: [{
+				id: "6E44B6BA1195515D"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Não morra de frio"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4116AE6354BC4E93"
+				"783AD38A729AE2C2"
+				"0215542CE10D3C53"
+			]
+			id: "794D601B434F44A3"
+			tasks: [{
+				id: "05C0ACD180042E74"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hora de Cavar"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["794D601B434F44A3"]
+			id: "56D7B0A6C9EE710F"
+			shape: "diamond"
+			size: 1.6d
+			tasks: [{
+				count: 16L
+				id: "75E3CA1FED6812C5"
+				item: { Count: 16, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "O primeiro Material"
+			x: 6.4d
+			y: -3.2d
+		}
+		{
+			dependencies: ["794D601B434F44A3"]
+			id: "27BF036792512BA9"
+			shape: "circle"
+			tasks: [{
+				count: 16L
+				id: "765E30981F7ECE63"
+				item: { Count: 16, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			title: "Minerais Preciosos"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"27BF036792512BA9"
+				"56D7B0A6C9EE710F"
+			]
+			id: "21846293984F7841"
+			shape: "gear"
+			size: 1.7d
+			tasks: [{
+				count: 8L
+				id: "24F1CB770115B451"
+				item: { Count: 8, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Liga Inicial"
+			x: 5.95d
+			y: -5.1d
+		}
+		{
+			id: "37358D6D0F7EDBF7"
+			tasks: [{
+				id: "3CCDB42942D0D43C"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+	]
+	title: "Início"
+}

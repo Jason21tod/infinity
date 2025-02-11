@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 2.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 4.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "result": "zoe:pain_editor"
+  },
+  "attributes": {
+    "attribute1": "zoe:defense",
+    "attribute1amplifier": 1.5
+  },
+  "update": true
+}
