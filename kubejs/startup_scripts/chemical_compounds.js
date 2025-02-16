@@ -4,5 +4,5 @@ StartupEvents.registry('item', event=> {
 })
 
 StartupEvents.registry('item', event=>{
-    event.create('tungstein_oxide')
+    event.create('tungsten_oxide')
 })

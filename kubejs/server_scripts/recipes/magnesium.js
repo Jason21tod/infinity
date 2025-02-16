@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.custom(createMilling(
+    event.custom(global.createMilling(
         [{
             tag: 'infinity:magnesium_font/high'
         }],
@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
             count: 8
         }]
     ))
-    event.custom(createMilling(
+    event.custom(global.createMilling(
         [{
             tag: 'infinity:magnesium_font/low'
         }],
@@ -32,12 +32,5 @@ ServerEvents.recipes(event => {
     })
 })
 
-function createMilling(ingredients, processing_time, results) {
-    return {
-        type: 'create:milling',
-        ingredients: ingredients,
-        processingTime: processing_time,
-        results: results
-    }
-}
+
 
